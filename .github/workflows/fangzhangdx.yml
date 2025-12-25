@@ -3,19 +3,23 @@ name: fangzhangdx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 4/6 * * *'
-jobs:  # 20694
+    - cron: '17 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fangzhangdx
         env:
-          c645: ${{ secrets.c645 }}
+          qfx3628: ${{ secrets.qfx3628 }}
         run: |
-          echo $c645 | jq -r .tk1939 | /bin/bash
-          echo $bbk1809 | jq -r .fg60 | /bin/bash
-          echo $nw76 | jq -r .xepps0958 | /bin/bash
-          echo $lul79 | jq -r .wxmkr71656 | /bin/bash
-          echo $vhu9 | jq -r .gddeh4177 | /bin/bash
+          echo $qfx3628 | jq -r .jqd4294 | /bin/bash
+          echo $au1451 | jq -r .wfzgf38 | /bin/bash
+          echo $ssoh58 | jq -r .s0 | /bin/bash
+          echo $vj643 | jq -r .tyyns0 | /bin/bash
+          echo $ek447 | jq -r .fsz948 | /bin/bash
+          echo $z86869 | jq -r .y983 | /bin/bash
+          echo $buh8 | jq -r .ncfev330 | /bin/bash
+          echo $k9597 | jq -r .jx26 | /bin/bash
 
